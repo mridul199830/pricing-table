@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*pricing-table-without-icon*/
+.pricing-table-without-icon {
+    border: 0px solid black;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.pricing-table-without-icon .pricing-table-info {
+    margin-left: 51px;
+}
+
+.active-bage .pricing-table-bage {
+    padding: 15px;
+    border-radius: 0 0 0 10px;
+    position: absolute;
+    top: 60px;
+    left: -63px;
+    transform: rotate(270deg);
+    color: white;
+    background: #f44336;
+}
+.pricing-table-without-icon .price-plan {
+    font-weight: 100;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.pricing-table-without-icon .price {
+    font-size: 67px;
+    letter-spacing: 6px;
+    color: #000000e0;
+    margin-bottom: 10px;
+}
+
+.pricing-table-without-icon .pricing-per-month {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.pricing-table-without-icon .feature {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 22px;
+}
+
+.pricing-table-without-icon .feature-info {
+    line-height: 3;
+    margin-bottom: 30px;
+    color: black;
+    letter-spacing: 1px;
+}
+.pricing-table-without-icon ul>li{
+    list-style-image: url(https://cdn.bitdegree.org/learn/list-style-image-marker-1.png?426d93cd);
+}
+.pricing-table-without-icon button {
+    border: navajowhite;
+    cursor: pointer;
+    font-size: 27px;
+    padding: 9px;
+    border-radius: 23px;
+    background: yellow;
+    transition: background 3s ;
+}
+.pricing-table-without-icon button:hover{
+    background: #f44336;
+}
+
